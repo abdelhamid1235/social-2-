@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IPost {
-    content: string;
+    content?: string;
     attachments?: string[];
     userId: mongoose.Types.ObjectId;
 }
